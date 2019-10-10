@@ -54,7 +54,7 @@ function App() {
   const [chores, setChores] = useState([
     {
       text: 'Get this app done',
-      isCompleted: false
+      isCompleted: true
     },
     {
       text: 'Make a playlist for coding',
@@ -62,7 +62,7 @@ function App() {
     },
     {
       text: 'Deploy this app',
-      isCompleted: false
+      isCompleted: true
     }
   ]);
  
